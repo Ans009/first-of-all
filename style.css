@@ -1,0 +1,112 @@
+/*Selector {
+	Property: Value;
+}*/
+
+* {
+	text-align: center;
+}
+
+body {
+	background-image: url(https://static-cse.canva.com/blob/142652/Rainbow-Gradient-Pink-and-Purple-Zoom-Virtual-Background.jpg);
+	background-size: cover;
+	margin: 0px;
+}
+
+.boxmodel{
+	border:  5px dashed black;
+	display: inline-block;
+	padding: 5px 20px;
+	margin: 0px 20px;
+	width: 33px;
+	height: 55px;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+p {
+	color: black;
+	text-align: center;
+	border: 5px solid rgb(255, 176, 170, 0.5);
+	cursor: pointer;
+}
+
+img{
+	float: right;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+}
+
+p {
+	text-decoration:  underline;
+	text-transform: uppercase;
+	line-height: 72px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 120%;
+	font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+
+.webtext {
+	border:  5px dashed black;
+}
+
+.active1 {
+	color:  #226666;
+}
+
+.active2 {
+	color:  #882D61;
+}
+
+.active3 {
+	color:  darkviolet;
+}
+
+.active4 {
+	color:  #aa7939;
+}
+
+
+#div1 {
+	background: rgba(0, 0, 255, 0.2);
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h3{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid brown;
+	border-right: 2px solid brown;
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow:  4px 4px 5px #888888;
+	-ms-box-shadow:  4px 4px 5px #888888;
+	-webkit-box-shadow:  4px 4px 5px #888888;
+	-o-box-shadow:  4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}
+
